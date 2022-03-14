@@ -1,0 +1,73 @@
+body {
+    background-image: url("rustic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#head {
+    font-size: 75px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#div1{
+    text-align: center;
+    
+}
+#div2{
+    text-align: center;
+    
+}
+h2{
+    font-size: 40px;
+    
+}
+#list{
+    text-align: left;
+    font-size: 35px;
+    list-style-type: square;
+
+
+}
+
+#div3{
+    text-align: center;
+    }
+
+li{
+    font-size: 35px;
+    display: block;
+    
+}
+button{
+    font-size: 25px;
+    background-color: aqua;
+}
+input{
+    font-size: 20px;
+    font-family: fantasy;
+    color: darkblue;
+    background-color: lavender;
+}
+
+@media only screen and (min-width: 768px){
+*{
+    background-color: lightpink;
+    
+    
+}
+
+li {
+   display:block;
+   width:300px; /* adjust */
+   height:150px; /* adjust */
+   padding: 5px; /*adjust*/
+}
+
+ul{
+    display: block;
+}
+}
+
